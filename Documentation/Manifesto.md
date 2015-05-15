@@ -37,12 +37,19 @@ Every effect should be a combination of things that get toggled on/off and whose
 
 There are three types of inputs:
 
-- **Automatic** (based on motion)
-	- Variations are applied based on types of motion
-	- Amount of motion
-	- Speed (not yet available)
-	- Direction (not yet available)
-- **Toggles**
-	- Toggles are way simpler than sliders, and directors can create entirely new effects by enabling/disabling them.
-- **Taps**
-	- 
+### **Automatic** (based on motion)
+Variations are applied based on detectable types of motion:
+
+- Amount of motion
+- Speed (not yet available)
+- Direction (not yet available)
+
+### **Toggles**
+Toggles are way simpler than sliders, and directors can create entirely new effects by enabling/disabling them.
+
+### **Taps**
+
+Screen taps can behave differently according to the effect. They can:
+
+- Generate elements
+- Alter properties (direction, size, +1/-1 property, etc)
