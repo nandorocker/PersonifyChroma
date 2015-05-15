@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="95px" height="95px" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Capture/FX Card/ic_private</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="--stylesheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-307.000000, -394.000000)" filter="url(#filter-1)" fill="#FFFFFF" opacity="0.9" fill-opacity="0.980000019">
+            <g id="Capture/FX-Card/ic_private" sketch:type="MSLayerGroup" transform="translate(307.000000, 393.000000)">
+                <path d="M8.57714944,37.2619384 C8.57714944,21.5427133 21.3657682,8.75409456 37.0849933,8.75409456 C52.8042184,8.75409456 65.5928371,21.5427133 65.5928371,37.2619384 C65.5928371,52.9811635 52.8042184,65.7697822 37.0849933,65.7697822 C21.3657682,65.7697822 8.57714944,52.9811635 8.57714944,37.2619384 L8.57714944,37.2619384 Z M94.813377,85.856409 L66.7331509,57.7780833 C70.7812647,51.947279 73.1949288,44.8982395 73.1949288,37.2619384 C73.1949288,17.3178508 57.0252798,1.15200287 37.0849933,1.15200287 C17.1409057,1.15200287 0.975057753,17.3178508 0.975057753,37.2619384 C0.975057753,57.2022249 17.1409057,73.3718739 37.0849933,73.3718739 C45.268645,73.3718739 52.7909147,70.6142151 58.8478813,66.0206512 L86.7494583,93.9222283 L94.813377,85.856409 Z" id="Fill-288" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
