@@ -29,7 +29,7 @@ Variations should highlight:
 	- Sets trails in motion towards a direction
 3. "The Dragon"
 	- Trails scale outwards from user, growing almost to the size of screen and fading away
-	- If "dragon" and "snake" are active, 	
+	- If "dragon" and "snake" are active, 	trails should grow AND move
 
 #### Screen Gestures
 
