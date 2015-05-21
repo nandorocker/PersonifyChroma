@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="18px" viewBox="0 0 28 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>FX/ic_preview-on</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-0.8" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.133 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="--stylesheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-35.000000, -127.000000)" filter="url(#filter-1)" fill="#D7D7D7">
+            <g id="FX/ic_preview-on" sketch:type="MSLayerGroup" transform="translate(36.500000, 126.500000)">
+                <path d="M26,9 C24.2921805,4.36755247 19.1179292,1 13,1 C6.88207076,1 1.70781954,4.36755247 2.0927704e-14,9 C1.70781954,13.6324475 6.88207076,17 13,17 C19.1179292,17 24.2921805,13.6324475 26,9 L26,9 Z M13.259271,15.5 C16.8309942,15.5 19.7264479,12.5898509 19.7264479,9 C19.7264479,5.41014913 16.8309942,2.5 13.259271,2.5 C9.68754782,2.5 6.79209408,5.41014913 6.79209408,9 C6.79209408,12.5898509 9.68754782,15.5 13.259271,15.5 Z M13.259271,13.375 C15.6633155,13.375 17.6121785,11.4162458 17.6121785,9 C17.6121785,6.58375422 15.6633155,4.625 13.259271,4.625 C10.8552266,4.625 8.90636346,6.58375422 8.90636346,9 C8.90636346,11.4162458 10.8552266,13.375 13.259271,13.375 Z" id="ic_preview" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
