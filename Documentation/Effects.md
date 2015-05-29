@@ -72,12 +72,12 @@ Variations should highlight:
 	- Stamps will vary in width and height
 	- Values randomized at every stamp
 	- From 0.5x to 1.5x
-3a. "Dancing clones"
+3. "Dancing clones" (alternative A)
 	- All stamps will travel across screen in one of 3 different patterns (all stamps at once, one pattern at a time):
 		- Diagonal
 		- Horizontal
 		- One column up, one column down
-3b. "Buzzing clones" (alternative)
+3. "Buzzing clones" (alternative B)
 	- All stamps move around a little bit, each at their own rate
 	- Rate is calculated once and maintained
 	- Rate comprised of direction, length and speed of motion
