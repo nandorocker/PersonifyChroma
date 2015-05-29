@@ -64,20 +64,23 @@ Variations should highlight:
 
 ### Toggles
 
-1. "Color cycle"
+1. "Auto Populate"
+	- Default on
+	- Adds a new clone every X seconds
+2. "Color cycle"
 	- Cycles through a fixed color palette at a fixed speed
 	- Colorizes each stamp with the current palette color
 	- Palettes should be pre-defined, randomized with each activation
-2. "Squish n' Stretch"
+3. "Squish n' Stretch"
 	- Stamps will vary in width and height
 	- Values randomized at every stamp
 	- From 0.5x to 1.5x
-3. "Dancing clones" (alternative A)
+4. "Dancing clones"
 	- All stamps will travel across screen in one of 3 different patterns (all stamps at once, one pattern at a time):
 		- Diagonal
 		- Horizontal
 		- One column up, one column down
-3. "Buzzing clones" (alternative B)
+5. "Buzzing clones"
 	- All stamps move around a little bit, each at their own rate
 	- Rate is calculated once and maintained
 	- Rate comprised of direction, length and speed of motion
